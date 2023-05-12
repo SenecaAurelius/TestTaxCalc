@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+<h1>This is a tax estimate, just a demo project</h1>
+<form method="post">
+    <div class="form-group">
+        <label>Please enter your income earned here :
+            <input th:field="taxPayer.income" type="text">
+<!--            TODO-->
+        </label>
+        <input type="submit" class="btn btn-success">
+    </div>
+
+</form>
+
+</body>
+</html>
